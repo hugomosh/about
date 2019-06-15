@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Aprender a usar gatsby y githubpages para tener my propio blog/portafolio'
-date: "2015-05-06T23:46:37.121Z"
+title: 'Tutorial: Aprende a usar gatsby y github-pages para tener tu propio blog/portafolio'
+date: "2019-06-15T04:39:03.693Z"
 description: '¿Cómo tener un blog/portafolio (bueno, bonito y gratis) con gatsby y github-pages?'
 ---
 
@@ -20,7 +20,7 @@ Entonces para nombrar el proyecto lo llamaré **about** pero puede ser _blog, ab
 Puedes empezar sin saber mucho. El objetivo es que cualquiera pueda hacerlo. Gatsby, tiene mucho énfasis en esto, por lo que tiene su página de tutorial que cubre cualquier aspecto desde _setupear el ambiente_ hasta cosas más complejas. Te recomiendo echarle un ojo
 https://www.gatsbyjs.org/tutorial/
 
-Vamos a sumir ciertas cosas como manejo de terminal pero en cada paso lo detallaré.
+Vamos a asumir ciertas cosas como manejo de terminal pero en cada paso lo detallaré.
 
 ## Instalar gatsby
 
@@ -37,7 +37,7 @@ Visita: https://www.gatsbyjs.org/starters/?v=2
 
 Recomendados: [Gatsby Starter Blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/)
 
-Tambien puedes no utilizar un starter
+También puedes no utilizar un _starter_
 
 ## Empieza un gatsby 
 
@@ -75,7 +75,7 @@ En la esquina superior derecha de github:
 ![New repo](./new_repo.png)
 
 Y ahora llena los datos como mejor te guste
-![New repo](./github.com_new.png)
+![New repo details](./github.com_new.png)
 
 
 
