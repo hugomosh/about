@@ -1,118 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://hugomosh.github.io/about/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 15 Jun 2019 05:00:48 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in…]]></description><link>http://hugomosh.github.io/about//hi-folks/</link><guid isPermaLink="false">http://hugomosh.github.io/about//hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[About & More HugoMosh]]></title><description><![CDATA[A personal blog by HugoMosh.]]></description><link>http://hugomosh.github.io/about/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 15 Jun 2019 06:26:22 GMT</lastBuildDate><item><title><![CDATA[Tutorial: Aprender a usar gatsby y githubpages para tener my propio blog/portafolio]]></title><description><![CDATA[¿Cómo tener un blog/portafolio (bueno, bonito y gratis) con gatsby y github-pages?La idea es tener un blog. Gatsby es una plataforma para…]]></description><link>http://hugomosh.github.io/about//gatsby-gh-pages/</link><guid isPermaLink="false">http://hugomosh.github.io/about//gatsby-gh-pages/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;h3&gt;¿Cómo tener un blog/portafolio (bueno, bonito y gratis) con gatsby y github-pages?&lt;/h3&gt;
+&lt;p&gt;La idea es tener un blog. Gatsby es una plataforma para publicar contenido estático, por ejemplo blogs y portafolios. Y github-pages ofrece un espacio en la web.&lt;/p&gt;
+&lt;p&gt;Hay dos opciones para montarlo en github-pages. Dentro de la página de un repositorio o una personal o de empresa.&lt;/p&gt;
+&lt;p&gt;Para este tutorial me voy a ir por la opción de tener un repositorio que sea el blog y éste tenga su propia github-page.&lt;/p&gt;
+&lt;p&gt;Entonces para nombrar el proyecto lo llamaré &lt;strong&gt;about&lt;/strong&gt; pero puede ser &lt;em&gt;blog, aboutme, portafolio, etc.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Requisitos&lt;/h2&gt;
+&lt;p&gt;Puedes empezar sin saber mucho. El objetivo es que cualquiera pueda hacerlo. Gatsby, tiene mucho énfasis en esto, por lo que tiene su página de tutorial que cubre cualquier aspecto desde &lt;em&gt;setupear el ambiente&lt;/em&gt; hasta cosas más complejas. Te recomiendo echarle un ojo
+&lt;a href=&quot;https://www.gatsbyjs.org/tutorial/&quot;&gt;https://www.gatsbyjs.org/tutorial/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vamos a sumir ciertas cosas como manejo de terminal pero en cada paso lo detallaré.&lt;/p&gt;
+&lt;h2&gt;Instalar gatsby&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Requisitos&lt;/strong&gt;: Manejo básico de terminal, terminal con node y npm.&lt;/p&gt;
+&lt;p&gt;Para instalar gatsby sólo ejecuta &lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt; dentro de la terminal.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;p&gt;Tip básico: cuándo instalas paquetes globales no importa la ubicación (pwd) en la que te encuentres.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
+&lt;h2&gt;Escoge un starter para Gatsby&lt;/h2&gt;
+&lt;p&gt;Visita: &lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot;&gt;https://www.gatsbyjs.org/starters/?v=2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recomendados: &lt;a href=&quot;https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;Gatsby Starter Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tambien puedes no utilizar un starter&lt;/p&gt;
+&lt;h2&gt;Empieza un gatsby&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;NOMBRE_DEL_REPO&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;about
+URL_DEL_STARTER&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https://github.com/gatsbyjs/gatsby-starter-blog
+gatsby new &lt;span class=&quot;token variable&quot;&gt;$NOMBRE_DEL_REPO&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$URL_DEL_STARTER&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;que la terminal traduce a (en mi caso): &lt;code class=&quot;language-text&quot;&gt;gatsby new about https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Recuerda la ubicación (el comando &lt;code class=&quot;language-text&quot;&gt;pwd&lt;/code&gt; te lo recuerda ; )&lt;/p&gt;
+&lt;p&gt;Ahora entra a la carpeta creada por el cliente de gatsby (gatsby-cli) y ordena el comando &lt;code class=&quot;language-text&quot;&gt;develop&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$NOMBRE_DEL_REPO&lt;/span&gt;
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¡Ya tienes un sitio corriendo en tu local: &lt;code class=&quot;language-text&quot;&gt;http://localhost:8000&lt;/code&gt;! Echalé un ojo en tu explorador. &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
+&lt;p&gt;Tip: Si algo falla: primero, siempre lee con cuidado el error o advertencia. Segundo, busca en internet el error, en caso de no poder resolverlo por ti mismo. Tercero, no dudes en contactarme, para ayudarte a resolverlo.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already.Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>http://hugomosh.github.io/about//my-second-post/</link><guid isPermaLink="false">http://hugomosh.github.io/about//my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting!I’m sure I’ll write a lot more interesting things in the future.Oh, and here’s a…]]></description><link>http://hugomosh.github.io/about//hello-world/</link><guid isPermaLink="false">http://hugomosh.github.io/about//hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a
+&lt;p&gt;Para salir, y cerrar el proceso haz &lt;code class=&quot;language-text&quot;&gt;CTRL+C&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Crear un repositorio público en github&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Requisitos&lt;/strong&gt;: cuenta de github.&lt;/p&gt;
+&lt;p&gt;Ahora crea un nuevo repositorio de github.&lt;/p&gt;
+&lt;p&gt;En la esquina superior derecha de github:
+&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/about/static/8058f3f26913fea3b6a89a73344fe94a/2b40c/salty_egg.jpg&quot;
+    href=&quot;/about/static/f1eb2743764b0d0157d113f88f993e3c/24b80/new_repo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 371px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.68194070080863%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACh0lEQVQoz31SXUsUURieH2FQWuym69dauUoQRQiZhJolIlKQQRchJnQnlVYWRREW5FV3XmW/oh/QTZBfpevOzM6Os+6s+zEfO3Pma/XpzFEqURp4eN/3nPM+vM/zDtfQcg5Hob75LIux1vYDaIwn2F2k5Txi8Y79d7SOxdHV3QuuqS2BQ4iHsYM110WbKBoZTtL8+KkGtJ5JoG90EpHmBJrj7Wi/0IXrN0cwNHwL3LHaKI5CzYkIaiMx9A0M4drAMHpvDLPY0z+EwZFR3B97gPGJhxi5fQc1dacRjbXh4uUr4KafvwLDzF9M0frZzEs8nHqL1qlV9H2UcOlNCj3vRXTPirg6y6N+chnRpzI6n3zDo+kXeDw9g3cf5sDhP1/erKJ/TsLYZxV353OYWFAxvrCNiS95DH7aQudrEffm5QM9XMUkcEL4PjzLRWD78CkC4rPz3aoPIS2B5wUoWzmsrW9gLbmBTEYCdgN2r21rsHQbRsUC53i0WbXgfc0gL+fAJ3nIogwxJbLcdT0USyXoug5N02DbNnzPg+M4qFZ3KKrIZ1UQSmgRFxxxPARlgmCpgKykYHlxBan1FIQNAatLqyDEgaJksZXLISNvHrKF2AT+vrKK7VBC28WO4+95ls3jx/dFZAQJEi9h/WeSEhIo2SxK5TIlVffIqXR5U0EQBFSBS61y/iX0sEMLBLtQFZWRCEkBv1bWkObTbMLtQgGmWWGEYV4oFlEslpjcgHrvE/cgYdWipE7ARnfDBRk2vIoDW7fgOi54QWSSRTENkS7I9/0/kkM/PdOhvfuENvUwJA2lE0LNDrcbgtpgmjabTDdMaLqBsqazaNCzECbdqmFUEP4phL63KOFv/PDpViFDTooAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;New repo&quot;
+        title=&quot;&quot;
+        src=&quot;/about/static/f1eb2743764b0d0157d113f88f993e3c/24b80/new_repo.png&quot;
+        srcset=&quot;/about/static/f1eb2743764b0d0157d113f88f993e3c/cf440/new_repo.png 148w,
+/about/static/f1eb2743764b0d0157d113f88f993e3c/d2d38/new_repo.png 295w,
+/about/static/f1eb2743764b0d0157d113f88f993e3c/24b80/new_repo.png 371w&quot;
+        sizes=&quot;(max-width: 371px) 100vw, 371px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Y ahora llena los datos como mejor te guste
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/about/static/36e74ada8978d8d672089963cf6e24e0/37b61/github.com_new.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -123,21 +77,52 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAcEAADAQACAwAAAAAAAAAAAAABESEAMUGBobH/2gAIAQEAAT8hsTTH2wx5gg2ZgM8d5JIfmMRAIe//2gAMAwEAAgADAAAAEMgv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAxIWGBQeH/2gAIAQEAAT8QRswtDR5g4a7R5C/RHFM3BKk6zThoVp3lEYcnjGIYES7/ACZ//9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 87.94466403162056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACQklEQVQ4y5VUyXLTQBDVf0AVUFQgFSdxEuKwHDhw4D9zy40TBV4Dn0EqBwJIVqx9G42kkR89bWQkQyCZ0qvuabXe9DYyXr95i/1nL3AweIU+yZ3+MaPXH2B77wj945fYPRygdzBgn93DE+wdPcfDrR3ce/QE9wkPtnp4un+Cx9t7MMaTGUbjKcbTGbTOsoXZ+WdMZueMRp/OPmE4muDjcIwPwxFhzBzaZqC10jRFGIYkEwRBwLjrMpRSaHC9WOCbaePK8vDV9OAHMR8SxwmSJGVonUF6FMeQRYE2h7FcLplZy6oq1yeVZQUpZcd202pzMGFj+HJxie+miTTL4DgO5vY1R1VVCrIsUP6FvE22JmwMtm3DNC04rktECRPHlFYYRVzbiKS2R3EIL3ThRx4dVnWIf0XIJnieS1HZVEsHgSYgMp16G8UaJUPb6rrupqzJahJRJjmiPM8hRE5SQpGzUi3UGyBbvVnDhjCIUkr5B3cxp4ZoUo1MCJZNJP9qjIFWU0qp5zDgRjBRJogsR0KjUxRlp/ib2IhwtdGFd1wHvu9j4Sy40w5JPeBleQfCxqDrZ1oWrPkc87nNDbJIJmlGHRdcs/+m3CYUQtKI6JtAs0dTr29DEEY0HgntV7W+dcqqVhhdvcfZxSneXZ4hkP4fEdwG658DbRHKAL5wGaquOkRdfXnzz0HKgm+EHlZ6oJup6y9kDVEoGpXVx/r6NWMjyxqJUOSzQl7UyPKVbuhCN86VamNJUf6OTvs1uj6E3zdo7X8C38xD9oO4WBkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;&lt;/span&gt;
     &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
+        alt=&quot;New repo&quot;
         title=&quot;&quot;
-        src=&quot;/about/static/8058f3f26913fea3b6a89a73344fe94a/c739e/salty_egg.jpg&quot;
-        srcset=&quot;/about/static/8058f3f26913fea3b6a89a73344fe94a/8ee9c/salty_egg.jpg 148w,
-/about/static/8058f3f26913fea3b6a89a73344fe94a/ebbe7/salty_egg.jpg 295w,
-/about/static/8058f3f26913fea3b6a89a73344fe94a/c739e/salty_egg.jpg 590w,
-/about/static/8058f3f26913fea3b6a89a73344fe94a/5413e/salty_egg.jpg 885w,
-/about/static/8058f3f26913fea3b6a89a73344fe94a/4efde/salty_egg.jpg 1180w,
-/about/static/8058f3f26913fea3b6a89a73344fe94a/2b40c/salty_egg.jpg 2048w&quot;
+        src=&quot;/about/static/36e74ada8978d8d672089963cf6e24e0/b9e4f/github.com_new.png&quot;
+        srcset=&quot;/about/static/36e74ada8978d8d672089963cf6e24e0/cf440/github.com_new.png 148w,
+/about/static/36e74ada8978d8d672089963cf6e24e0/d2d38/github.com_new.png 295w,
+/about/static/36e74ada8978d8d672089963cf6e24e0/b9e4f/github.com_new.png 590w,
+/about/static/36e74ada8978d8d672089963cf6e24e0/f9b6a/github.com_new.png 885w,
+/about/static/36e74ada8978d8d672089963cf6e24e0/37b61/github.com_new.png 1012w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+  &lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Sube tu repo para manternerlo sincronizado&lt;/h2&gt;
+&lt;p&gt;Ahora regresa a la terminal y sincroniza tu repo en el branch &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;. Siguiendo las instrucciones de github.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;…or push an existing repository from the command line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#En mi caso es hugomosh/about, cambialo por tu caso ;) &lt;/span&gt;
+REPO&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;git@github.com:hugomosh/about.git 
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin &lt;span class=&quot;token variable&quot;&gt;$REPO&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Instala gh-pages&lt;/h2&gt;
+&lt;p&gt;Dentro de la carpeta del proyecto. En mi caso, &lt;code class=&quot;language-text&quot;&gt;about&lt;/code&gt;. Instala el paquete &lt;a href=&quot;https://github.com/tschaub/gh-pages&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;&lt;/a&gt; que nos ayudara a publicar el contenido dentro del branch &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; del repo que acabamos de crear.&lt;/p&gt;
+&lt;p&gt;¿Utilizas &lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt;? Entonces: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; gh-pages -D&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;de lo contrario con &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;. En otro post trataré de explicar cada uno y la diferencia. Mientras sugiero googlearlo.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Añade la configuración necesaria para el deploy con gh-pages en gatsby&lt;/h2&gt;
+&lt;p&gt;Son dos archivos que se van a modificar dentro del proyecto. El primero es el &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; y se le va a añadir &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; dentro de las &lt;code class=&quot;language-text&quot;&gt;&amp;quot;scripts&amp;quot;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt; &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El segundo es &lt;code class=&quot;language-text&quot;&gt;gatsby.config&lt;/code&gt; para añadir &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; dentro del module.exports:&lt;/p&gt;
+&lt;p&gt;Este prefijo es el nombre de tu repo.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/about&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Deploy&lt;/h2&gt;
+&lt;p&gt;Ahora ejecuta el comando deploy con npm:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Tardará un ratito pues hace el build y luego el deploy que es subirlo a github en el branch gh-pages.&lt;/p&gt;
+&lt;h2&gt;Visita tu sitio&lt;/h2&gt;
+&lt;p&gt;Ya puedes visitar tu sitio. Que si lo hiciste desde cero conmigo, pues solo, tendrás el proyecto de inicio o el &lt;em&gt;starter&lt;/em&gt; que hayas seleccionado.&lt;/p&gt;
+&lt;p&gt;La url es algo cercano a: &lt;a href=&quot;http://%25USERNAME%25.github.io/%25BLOGNAME%25/&quot;&gt;http://%USERNAME%.github.io/%BLOGNAME%/&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Ahora será tiempo de que conozcas los archivos, juegues con tu proyecto de gatsby y lo vayas modificando para que quede cómo quieras y logres tener el blog o portafolio que siempre soñaste ; )&lt;/p&gt;
+&lt;p&gt;En mi caso mi blog es: &lt;a href=&quot;http://hugomosh.github.io/about/&quot;&gt;http://hugomosh.github.io/about/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
