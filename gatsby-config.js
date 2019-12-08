@@ -21,7 +21,7 @@ module.exports = {
               trackingId: "UA-142181068-1",
             },
           },
-          //Code syntax 
+          //Code syntax
           {
             resolve: `gatsby-remark-prismjs`,
             options: {

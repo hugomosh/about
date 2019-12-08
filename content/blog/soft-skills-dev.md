@@ -32,7 +32,7 @@ Para perfeccionar un arte, primero hay que perfecionar la técnica. Escribir bue
 
 Mientras no podamos programar fluidamente con comandos de voz y, mientras no exista la interfaz adecuada para materializar los pensamientos del cerebro a las computadoras estamos condenado a utilizar el teclado (y QWERTY que es lo peor) para programar.
 
-## La técnica del Pomodor
+## La técnica del Pomodoro
 
 Si quieres escribir código que tenga un gran impacto, tendras que pasar mucho tiempo de alta concentración en un mundo lleno de distracciones. Esas distraciones son externas pero a veces tambien radican dentro de nostros y parece que no podemos controlarlo.  Lograr entrar en la "zona" para escribir buen código es complicado. Una sencilla técnica nos puede ayudar a administrar la distración y lograr optimizar nuestro tiempo de calidad para resolver los problemas que surgen a la hora de desarrollar software. 
 
